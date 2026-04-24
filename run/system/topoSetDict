@@ -16,15 +16,15 @@ FoamFile
 
 actions
 (
-    {
-        name    oversetZone;
-        type    cellZoneSet;
-        action  new;
-        source  setToCellZone;
-        sourceInfo
-        {
-            set region1;
-        }
+    //{
+    //    name    oversetZone;
+    //    type    cellZoneSet;
+    //    action  new;
+    //    source  setToCellZone;
+    //    sourceInfo
+    //    {
+    //        set region1;
+    //    }
     }
 );
 

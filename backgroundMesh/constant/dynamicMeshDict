@@ -24,7 +24,7 @@ solver          multiSolidBodyMotionSolver;
 
 multiSolidBodyMotionSolverCoeffs
 {
-    oversetZone
+    region1
     {
         //solidBodyMotionFunction linearMotion;
         //linearMotionCoeffs

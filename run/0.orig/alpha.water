@@ -20,7 +20,12 @@ internalField   uniform 0;
 
 boundaryField
 {
-    "(movingObstacle|walls|inlet)"
+    "(walls|inlet)"
+    {
+        type            zeroGradient;
+    }
+
+    movingObstacle
     {
         type            zeroGradient;
     }
