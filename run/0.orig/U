@@ -22,14 +22,14 @@ boundaryField
 {
     movingObstacle
     {
-        type            uniformFixedValue;
-        uniformValue    (0 0 0);
+        type            movingWallVelocity;
+        value           uniform (0 0 0);  // just the initial value
     }
 
     walls
     {
-        type            movingWallVelocity;
-        value           uniform (0 0 0);
+        type            uniformFixedValue;
+        uniformValue    (0 0 0);
     }
 
     outlet

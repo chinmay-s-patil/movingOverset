@@ -1,0 +1,19 @@
+clear
+cd ~/OpenFoamUbu/oversetMesh/movingOverset
+cd overset/
+blockMesh
+
+cd ./../backgroundMesh/
+blockMesh
+
+cd ./../run
+rm -rf *
+cp -r ../backgroundMesh/* .
+mergeMeshes . ../overset/ -overwrite 
+checkMesh
+setsToZones -noFlipMap
+topoSet
+orig
+setFields
+decomposePar -force
+pararun overInterDyMFoam -log
