@@ -1,0 +1,482 @@
+{
+  "Points": {
+    "Point 1": {
+      "X": -1.0,
+      "Y": 1.0,
+      "Z": 0.0
+    },
+    "Point 2": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 0.0
+    },
+    "Point 3": {
+      "X": 1.0,
+      "Y": -1.0,
+      "Z": 0.0
+    },
+    "Point 4": {
+      "X": -1.0,
+      "Y": -1.0,
+      "Z": 0.0
+    },
+    "Point 5": {
+      "X": -4.0,
+      "Y": -3.0,
+      "Z": 0.0
+    },
+    "Point 6": {
+      "X": 4.0,
+      "Y": -3.0,
+      "Z": 0.0
+    },
+    "Point 9": {
+      "X": -1.0,
+      "Y": -3.0,
+      "Z": 0.0
+    },
+    "Point 10": {
+      "X": 1.0,
+      "Y": -3.0,
+      "Z": 0.0
+    },
+    "Point 11": {
+      "X": 4.0,
+      "Y": -1.0,
+      "Z": 0.0
+    },
+    "Point 12": {
+      "X": 4.0,
+      "Y": 1.0,
+      "Z": 0.0
+    },
+    "Point 13": {
+      "X": -4.0,
+      "Y": 1.0,
+      "Z": 0.0
+    },
+    "Point 14": {
+      "X": -4.0,
+      "Y": -1.0,
+      "Z": 0.0
+    },
+    "Point 7": {
+      "X": -4.0,
+      "Y": 4.0,
+      "Z": 0.0
+    },
+    "Point 8": {
+      "X": -1.0,
+      "Y": 4.0,
+      "Z": 0.0
+    },
+    "Point 15": {
+      "X": 1.0,
+      "Y": 4.0,
+      "Z": 0.0
+    },
+    "Point 16": {
+      "X": 4.0,
+      "Y": 4.0,
+      "Z": 0.0
+    },
+    "Point 17": {
+      "X": -1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "Point 18": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "Point 19": {
+      "X": 1.0,
+      "Y": -1.0,
+      "Z": 1.0
+    },
+    "Point 20": {
+      "X": -1.0,
+      "Y": -1.0,
+      "Z": 1.0
+    },
+    "Point 21": {
+      "X": -4.0,
+      "Y": -3.0,
+      "Z": 1.0
+    },
+    "Point 22": {
+      "X": 4.0,
+      "Y": -3.0,
+      "Z": 1.0
+    },
+    "Point 23": {
+      "X": -1.0,
+      "Y": -3.0,
+      "Z": 1.0
+    },
+    "Point 24": {
+      "X": 1.0,
+      "Y": -3.0,
+      "Z": 1.0
+    },
+    "Point 25": {
+      "X": 4.0,
+      "Y": -1.0,
+      "Z": 1.0
+    },
+    "Point 26": {
+      "X": 4.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "Point 27": {
+      "X": -4.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "Point 28": {
+      "X": -4.0,
+      "Y": -1.0,
+      "Z": 1.0
+    },
+    "Point 29": {
+      "X": -4.0,
+      "Y": 4.0,
+      "Z": 1.0
+    },
+    "Point 30": {
+      "X": -1.0,
+      "Y": 4.0,
+      "Z": 1.0
+    },
+    "Point 31": {
+      "X": 1.0,
+      "Y": 4.0,
+      "Z": 1.0
+    },
+    "Point 32": {
+      "X": 4.0,
+      "Y": 4.0,
+      "Z": 1.0
+    }
+  },
+  "Layers": {
+    "Layer 0": {
+      "Points (Ref)": "1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 7, 8, 15, 16"
+    },
+    "Layer 1": {
+      "Points (Ref)": "17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32"
+    }
+  },
+  "Connections": {
+    "Connection 1": {
+      "Point 1": 5,
+      "Point 2": 9
+    },
+    "Connection 2": {
+      "Point 1": 4,
+      "Point 2": 9
+    },
+    "Connection 3": {
+      "Point 1": 4,
+      "Point 2": 14
+    },
+    "Connection 4": {
+      "Point 1": 5,
+      "Point 2": 14
+    },
+    "Connection 5": {
+      "Point 1": 13,
+      "Point 2": 14
+    },
+    "Connection 11": {
+      "Point 1": 2,
+      "Point 2": 12
+    },
+    "Connection 12": {
+      "Point 1": 1,
+      "Point 2": 2
+    },
+    "Connection 13": {
+      "Point 1": 1,
+      "Point 2": 13
+    },
+    "Connection 14": {
+      "Point 1": 1,
+      "Point 2": 4
+    },
+    "Connection 15": {
+      "Point 1": 3,
+      "Point 2": 4
+    },
+    "Connection 16": {
+      "Point 1": 2,
+      "Point 2": 3
+    },
+    "Connection 17": {
+      "Point 1": 11,
+      "Point 2": 12
+    },
+    "Connection 18": {
+      "Point 1": 3,
+      "Point 2": 11
+    },
+    "Connection 19": {
+      "Point 1": 3,
+      "Point 2": 10
+    },
+    "Connection 20": {
+      "Point 1": 9,
+      "Point 2": 10
+    },
+    "Connection 21": {
+      "Point 1": 6,
+      "Point 2": 10
+    },
+    "Connection 22": {
+      "Point 1": 6,
+      "Point 2": 11
+    },
+    "Connection 65": {
+      "Point 1": 12,
+      "Point 2": 16
+    },
+    "Connection 66": {
+      "Point 1": 15,
+      "Point 2": 16
+    },
+    "Connection 67": {
+      "Point 1": 2,
+      "Point 2": 15
+    },
+    "Connection 68": {
+      "Point 1": 1,
+      "Point 2": 8
+    },
+    "Connection 69": {
+      "Point 1": 8,
+      "Point 2": 15
+    },
+    "Connection 70": {
+      "Point 1": 7,
+      "Point 2": 8
+    },
+    "Connection 71": {
+      "Point 1": 7,
+      "Point 2": 13
+    },
+    "Connection 72": {
+      "Point 1": 1,
+      "Point 2": 17
+    },
+    "Connection 73": {
+      "Point 1": 2,
+      "Point 2": 18
+    },
+    "Connection 74": {
+      "Point 1": 3,
+      "Point 2": 19
+    },
+    "Connection 75": {
+      "Point 1": 4,
+      "Point 2": 20
+    },
+    "Connection 76": {
+      "Point 1": 5,
+      "Point 2": 21
+    },
+    "Connection 77": {
+      "Point 1": 6,
+      "Point 2": 22
+    },
+    "Connection 78": {
+      "Point 1": 9,
+      "Point 2": 23
+    },
+    "Connection 79": {
+      "Point 1": 10,
+      "Point 2": 24
+    },
+    "Connection 80": {
+      "Point 1": 11,
+      "Point 2": 25
+    },
+    "Connection 81": {
+      "Point 1": 12,
+      "Point 2": 26
+    },
+    "Connection 82": {
+      "Point 1": 13,
+      "Point 2": 27
+    },
+    "Connection 83": {
+      "Point 1": 14,
+      "Point 2": 28
+    },
+    "Connection 84": {
+      "Point 1": 7,
+      "Point 2": 29
+    },
+    "Connection 85": {
+      "Point 1": 8,
+      "Point 2": 30
+    },
+    "Connection 86": {
+      "Point 1": 15,
+      "Point 2": 31
+    },
+    "Connection 87": {
+      "Point 1": 16,
+      "Point 2": 32
+    },
+    "Connection 88": {
+      "Point 1": 21,
+      "Point 2": 23
+    },
+    "Connection 89": {
+      "Point 1": 20,
+      "Point 2": 23
+    },
+    "Connection 90": {
+      "Point 1": 20,
+      "Point 2": 28
+    },
+    "Connection 91": {
+      "Point 1": 21,
+      "Point 2": 28
+    },
+    "Connection 92": {
+      "Point 1": 27,
+      "Point 2": 28
+    },
+    "Connection 93": {
+      "Point 1": 18,
+      "Point 2": 26
+    },
+    "Connection 94": {
+      "Point 1": 17,
+      "Point 2": 18
+    },
+    "Connection 95": {
+      "Point 1": 17,
+      "Point 2": 27
+    },
+    "Connection 96": {
+      "Point 1": 17,
+      "Point 2": 20
+    },
+    "Connection 97": {
+      "Point 1": 19,
+      "Point 2": 20
+    },
+    "Connection 98": {
+      "Point 1": 18,
+      "Point 2": 19
+    },
+    "Connection 99": {
+      "Point 1": 25,
+      "Point 2": 26
+    },
+    "Connection 100": {
+      "Point 1": 19,
+      "Point 2": 25
+    },
+    "Connection 101": {
+      "Point 1": 19,
+      "Point 2": 24
+    },
+    "Connection 102": {
+      "Point 1": 23,
+      "Point 2": 24
+    },
+    "Connection 103": {
+      "Point 1": 22,
+      "Point 2": 24
+    },
+    "Connection 104": {
+      "Point 1": 22,
+      "Point 2": 25
+    },
+    "Connection 105": {
+      "Point 1": 26,
+      "Point 2": 32
+    },
+    "Connection 106": {
+      "Point 1": 31,
+      "Point 2": 32
+    },
+    "Connection 107": {
+      "Point 1": 18,
+      "Point 2": 31
+    },
+    "Connection 108": {
+      "Point 1": 17,
+      "Point 2": 30
+    },
+    "Connection 109": {
+      "Point 1": 30,
+      "Point 2": 31
+    },
+    "Connection 110": {
+      "Point 1": 29,
+      "Point 2": 30
+    },
+    "Connection 111": {
+      "Point 1": 27,
+      "Point 2": 29
+    }
+  },
+  "Edges": {},
+  "Hexes": {
+    "Hex 1": {
+      "Points": "Point 5, Point 9, Point 4, Point 14, Point 21, Point 23, Point 20, Point 28"
+    },
+    "Hex 2": {
+      "Points": "Point 9, Point 10, Point 3, Point 4, Point 23, Point 24, Point 19, Point 20"
+    },
+    "Hex 3": {
+      "Points": "Point 10, Point 6, Point 11, Point 3, Point 24, Point 22, Point 25, Point 19"
+    },
+    "Hex 4": {
+      "Points": "Point 3, Point 11, Point 12, Point 2, Point 19, Point 25, Point 26, Point 18"
+    },
+    "Hex 5": {
+      "Points": "Point 14, Point 4, Point 1, Point 13, Point 28, Point 20, Point 17, Point 27"
+    },
+    "Hex 6": {
+      "Points": "Point 13, Point 1, Point 8, Point 7, Point 27, Point 17, Point 30, Point 29"
+    },
+    "Hex 7": {
+      "Points": "Point 1, Point 2, Point 15, Point 8, Point 17, Point 18, Point 31, Point 30"
+    },
+    "Hex 8": {
+      "Points": "Point 2, Point 12, Point 16, Point 15, Point 18, Point 26, Point 32, Point 31"
+    }
+  },
+  "Patches": {
+    "frontAndBack": {
+      "type": "empty",
+      "Points": "5 14 4 9, 21 23 20 28, 9 4 3 10, 23 24 19 20, 10 3 11 6, 24 22 25 19, 3 2 12 11, 19 25 26 18, 14 13 1 4, 28 20 17 27, 13 7 8 1, 27 17 30 29, 1 8 15 2, 17 18 31 30, 2 15 16 12, 18 26 32 31",
+      "Normal": 1
+    },
+    "overset": {
+      "type": "empty",
+      "Points": "7 29 30 8, 5 9 23 21, 13 27 29 7, 5 21 28 14, 8 30 31 15, 9 10 24 23, 15 31 32 16, 10 6 22 24, 12 16 32 26, 6 11 25 22, 11 12 26 25, 14 28 27 13",
+      "Normal": 1
+    },
+    "movingObstacle": {
+      "type": "wall",
+      "Points": "4 20 19 3, 4 1 17 20, 1 2 18 17, 3 19 18 2",
+      "Normal": 1
+    }
+  },
+  "Specs": {
+    "sketch_plane": "XY",
+    "project_name": "oversetMesh",
+    "project_description": "",
+    "unit_system": "m",
+    "unit_sci_exponent": "0",
+    "scale": 1.0
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "Points": {
+    "Point 2": {
+      "X": -10.0,
+      "Y": -5.0,
+      "Z": 0.0
+    },
+    "Point 3": {
+      "X": 9.0,
+      "Y": -5.0,
+      "Z": 0.0
+    },
+    "Point 5": {
+      "X": 9.0,
+      "Y": 5.0,
+      "Z": 0.0
+    },
+    "Point 6": {
+      "X": -10.0,
+      "Y": 5.0,
+      "Z": 0.0
+    },
+    "Point 1": {
+      "X": -10.0,
+      "Y": 1.0,
+      "Z": 0.0
+    },
+    "Point 4": {
+      "X": -10.0,
+      "Y": -1.0,
+      "Z": 0.0
+    },
+    "Point 13": {
+      "X": 9.0,
+      "Y": -1.0,
+      "Z": 0.0
+    },
+    "Point 14": {
+      "X": 9.0,
+      "Y": 1.0,
+      "Z": 0.0
+    },
+    "Point 7": {
+      "X": -10.0,
+      "Y": -5.0,
+      "Z": 1.0
+    },
+    "Point 8": {
+      "X": 9.0,
+      "Y": -5.0,
+      "Z": 1.0
+    },
+    "Point 9": {
+      "X": 9.0,
+      "Y": 5.0,
+      "Z": 1.0
+    },
+    "Point 10": {
+      "X": -10.0,
+      "Y": 5.0,
+      "Z": 1.0
+    },
+    "Point 11": {
+      "X": -10.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "Point 12": {
+      "X": -10.0,
+      "Y": -1.0,
+      "Z": 1.0
+    },
+    "Point 15": {
+      "X": 9.0,
+      "Y": -1.0,
+      "Z": 1.0
+    },
+    "Point 16": {
+      "X": 9.0,
+      "Y": 1.0,
+      "Z": 1.0
+    }
+  },
+  "Layers": {
+    "Layer 0": {
+      "Points (Ref)": "2, 3, 5, 6, 1, 4, 13, 14"
+    },
+    "Layer 1": {
+      "Points (Ref)": "7, 8, 9, 10, 11, 12, 15, 16"
+    }
+  },
+  "Connections": {
+    "Connection 9": {
+      "Point 1": 2,
+      "Point 2": 3
+    },
+    "Connection 12": {
+      "Point 1": 5,
+      "Point 2": 6
+    },
+    "Connection 27": {
+      "Point 1": 5,
+      "Point 2": 14
+    },
+    "Connection 28": {
+      "Point 1": 13,
+      "Point 2": 14
+    },
+    "Connection 29": {
+      "Point 1": 3,
+      "Point 2": 13
+    },
+    "Connection 30": {
+      "Point 1": 2,
+      "Point 2": 4
+    },
+    "Connection 31": {
+      "Point 1": 1,
+      "Point 2": 4
+    },
+    "Connection 32": {
+      "Point 1": 1,
+      "Point 2": 6
+    },
+    "Connection 33": {
+      "Point 1": 1,
+      "Point 2": 14
+    },
+    "Connection 34": {
+      "Point 1": 4,
+      "Point 2": 13
+    },
+    "Connection 35": {
+      "Point 1": 2,
+      "Point 2": 7
+    },
+    "Connection 36": {
+      "Point 1": 3,
+      "Point 2": 8
+    },
+    "Connection 37": {
+      "Point 1": 5,
+      "Point 2": 9
+    },
+    "Connection 38": {
+      "Point 1": 6,
+      "Point 2": 10
+    },
+    "Connection 39": {
+      "Point 1": 1,
+      "Point 2": 11
+    },
+    "Connection 40": {
+      "Point 1": 4,
+      "Point 2": 12
+    },
+    "Connection 41": {
+      "Point 1": 13,
+      "Point 2": 15
+    },
+    "Connection 42": {
+      "Point 1": 14,
+      "Point 2": 16
+    },
+    "Connection 43": {
+      "Point 1": 7,
+      "Point 2": 8
+    },
+    "Connection 44": {
+      "Point 1": 9,
+      "Point 2": 10
+    },
+    "Connection 45": {
+      "Point 1": 9,
+      "Point 2": 16
+    },
+    "Connection 46": {
+      "Point 1": 15,
+      "Point 2": 16
+    },
+    "Connection 47": {
+      "Point 1": 8,
+      "Point 2": 15
+    },
+    "Connection 48": {
+      "Point 1": 7,
+      "Point 2": 12
+    },
+    "Connection 49": {
+      "Point 1": 11,
+      "Point 2": 12
+    },
+    "Connection 50": {
+      "Point 1": 10,
+      "Point 2": 11
+    },
+    "Connection 51": {
+      "Point 1": 11,
+      "Point 2": 16
+    },
+    "Connection 52": {
+      "Point 1": 12,
+      "Point 2": 15
+    }
+  },
+  "Edges": {},
+  "Hexes": {
+    "Hex 1": {
+      "Points": "Point 1, Point 14, Point 5, Point 6, Point 11, Point 16, Point 9, Point 10"
+    },
+    "Hex 2": {
+      "Points": "Point 2, Point 3, Point 13, Point 4, Point 7, Point 8, Point 15, Point 12"
+    },
+    "Hex 3": {
+      "Points": "Point 4, Point 13, Point 14, Point 1, Point 12, Point 15, Point 16, Point 11"
+    }
+  },
+  "Patches": {
+    "walls": {
+      "type": "wall",
+      "Points": "6 10 9 5, 1 11 10 6, 14 5 9 16, 2 3 8 7, 2 7 12 4, 3 13 15 8, 4 12 11 1, 13 14 16 15",
+      "Normal": 1
+    },
+    "frontAndBack": {
+      "type": "empty",
+      "Points": "1 6 5 14, 11 16 9 10, 2 4 13 3, 7 8 15 12, 4 1 14 13, 12 15 16 11",
+      "Normal": 1
+    }
+  },
+  "Specs": {
+    "sketch_plane": "XY",
+    "project_name": "backgroundMesh",
+    "project_description": "",
+    "unit_system": "m",
+    "unit_sci_exponent": "0",
+    "scale": 1.0
+  }
+}
